@@ -9,7 +9,7 @@ document.getElementById('submit-button').addEventListener('click', function () {
 
     // condition
     if (givenEmail == 'shawon@log.com' && givePassword == 'nai') {
-        window.location.href = 'index.html'
+        window.location.href = "banking.html"
 
     }
 
