@@ -5,55 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice Only</title>
-
+    <title>Login</title>
 </head>
 
-<body class="font-sans">
+<body>
+    <header>
+        <h2 class="font-black text-6xl text-center ">Baper bank ar <span class="text-green-500">log in</span> korta
+            hoibo....!!!</h2>
+    </header>
+    <section
+        class="border-gray-900 rounded-lg border-x-2 border-y-2 mx-8 py-9 my-6 grid grid-cols-1 justify-items-center">
 
-    <h1 class="flex justify-center text-6xl">BANK OF DAD</h1>
+        <h3 class="grid grid-cols-1 justify-items-center text-green-500 text-3xl font-semibold">Log In </h3>
+        <form class="grid grid-cols-1 justify-items-center " action="">
+            <!-- email input -->
+            <input type="email" name="" id="email-input"
+                class="border-gray-900 border-x-2 border-y-2 rounded-lg py-3 my-3" placeholder="Add your mail">
+            <!-- password input -->
+            <input type="password" name="" id="password-input"
+                class="border-gray-900 border-x-2 border-y-2 rounded-lg py-3" placeholder="Add your password">
 
-    <section class="mx-6 grid gap-y-10">
-        <div class="grid grid-cols-3 gap-x-1  justify-items-center border-gray-900 border-x-2 border-y-2 rounded-lg m">
-            <div class="bg-green-600  rounded-lg my-6 py-6 px-6 text-white font-semibold text-center">
-                <h2>Diposit
-                    Amount
-                </h2>
-                <h4>$ <span id="amout-total">0000</span> </h4>
-            </div>
-            <div class="bg-red-600  rounded-lg my-6 py-6 px-6 text-white font-semibold text-center">
-                <h2>Withdraw
-                    Amount</h2>
-                <h4>$ <span id="withdraw-total">0000</span> </h4>
-            </div>
-            <div class="bg-yellow-600  rounded-lg my-6 py-6 px-6 text-white font-semibold text-center">
-                <h2>Total
-                    Amount</h2>
-                <h4>$ <span id="remain-total">0000</span> </h4>
-            </div>
-        </div>
-
-
-        <div
-            class="grid grid-cols-2 gap-x-1  justify-items-center border-gray-900 border-x-2 border-y-2 rounded-lg py-10">
-            <div>
-                <input class="border-gray-900 border-x-2 border-y-2 rounded-lg" id="diposit-Input" placeholder="Diposit"
-                    type="number">
-
-                <button class="bg-sky-600  rounded-lg my-3 py-3 px-3 text-white font-semibold"
-                    id="dipositButon">Diposite</button>
-            </div>
-
-            <div>
-                <input class="border-gray-900 border-x-2 border-y-2 rounded-lg" id="withdraw-Input"
-                    placeholder="withdraw" type="number">
-
-                <button class="bg-sky-600  rounded-lg my-3 py-3 px-3 text-white font-semibold"
-                    id="withdrawButon">Withdraw</button>
-
-            </div>
-
-        </div>
+        </form>
+        <!-- button to click -->
+        <button class="bg-sky-600  rounded-lg my-3 py-3 px-3 text-white font-semibold " id="submit-button"
+            type="submit">submit</button>
 
     </section>
 
@@ -62,8 +37,9 @@
 
 
 
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="practice.js"></script>
+    <script src="login.js"></script>
 </body>
 
 </html>
